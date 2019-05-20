@@ -1,0 +1,71 @@
+S -> NP-1Sg VP-1Sg | NP-1Pl VP-1Pl | NP-2Sg VP-2Sg | NP-2Pl VP-2Pl | NP-3Sg-M VP-3Sg-M | NP-3Sg-F VP-3Sg-F | NP-3Pl-M VP-3Pl-M| NP-3Pl-F VP-3Pl-F
+
+NP -> NP-1Sg | NP-1Pl | NP-2Sg | NP-2Pl | NP-3Sg-M | NP-3Sg-F | NP-3Pl-M | NP-3Pl-F 
+PR -> PR-1Sg | PR-1Pl | PR-2Sg | PR-2Pl | PR-3Sg-M | PR-3Sg-F | PR-3Pl-M | PR-3Pl-F  
+NP-1Sg -> PR-1Sg
+NP-1Pl -> PR-1Pl
+NP-2Sg -> PR-2Sg
+NP-2Pl -> PR-2Pl
+NP-3Sg-M -> DT-Sg-M NA-Sg-M | PR-3Sg-M | PN-M
+NP-3Sg-F -> DT-Sg-F NA-Sg-F | PR-3Sg-F | PN-F
+NP-3Pl-M -> DT-Pl NA-Pl-M | PR-3Pl-M 
+NP-3Pl-F -> DT-Pl NA-Pl-F | PR-3Pl-F 
+
+VP-1Sg -> V-1Sg NP | PR-do V-1Sg
+VP-1Pl -> V-1Pl NP | PR-do V-1Pl
+VP-2Sg -> V-2Sg NP | PR-do V-2Sg
+VP-2Pl -> V-2Pl NP | PR-do V-2Pl
+VP-3Sg-M-> V-3Sg-M NP | PR-do V-3Sg-M
+VP-3Sg-F-> V-3Sg-F NP | PR-do V-3Sg-F
+VP-3PL-M-> V-3PL-M NP | PR-do V-3Pl-M
+VP-3Pl-F-> V-3Pl-F NP | PR-do V-3Pl-F
+
+NA-Sg-M -> N-Sg-M | N-Sg-M A1-Sg-M | A2-Sg-M N-Sg-M | N-Sg-M A3-Sg-M | A3-Sg-M N-Sg-M 
+NA-Sg-F -> N-Sg-F | N-Sg-F A1-Sg-F | A2-Sg-F N-Sg-F | N-Sg-F A3-Sg-F | A3-Sg-F N-Sg-F
+NA-Pl-M -> N-Pl-M | N-Pl-M A1-Pl-M | A2-Pl-M N-Pl-M | N-Pl-M A3-Pl-M | A3-P3-M N-Pl-M
+NA-Pl-F -> N-Pl-F | N-Pl-M A1-Pl-F | A2-Pl-F N-Pl-F | N-Pl-M A3-Pl-F | A3-P3-F N-Pl-F
+
+
+PR-1Sg -> je
+PR-1Pl -> nous
+PR-2Sg -> tu
+PR-2Pl -> vous
+PR-3Sg-M -> il
+PR-3Sg-F -> elle 
+PR-3Pl-M -> ils
+PR-3Pl-F -> elles 
+
+DT-Sg-M -> le | un
+DT-Sg-F -> la | une 
+DT-Pl -> les
+DT-Pl -> des
+
+
+PR-do -> me | te | le |la |nous | vous | les
+N-Sg-M -> chat | poisson | pouvoir
+N-Sg-F-> television | femme | fille
+N-Pl-M -> chats | poissons | pouvoirs
+N-Pl-F -> televisions | femmes | filles
+
+
+V-1Sg -> mange | aime | regarde | cherche
+V-1Pl -> mangeons | aimons | regardons | cheechons
+V-2Sg -> manges | aimes | regardes | cherches
+V-2Pl -> mangez | aimez | regardez | cherchez
+V-3Sg-M -> mange | aime | regarde |cherche
+V-3Sg-F -> mange | aime | regarde |cherche
+V-3PL-M -> mangent | aimez | regardent |cherchez
+V-3Pl-F -> mangent | aiment | regardent |cherchent
+
+A1-Sg-M -> noir | heureux | blanc
+A1-Sg-F -> noire | heureuse | blanche
+A1-Pl-M -> noirs | heureux | blancs
+A1-Pl-F -> noires | heureuses | blanches
+A2-Sg-M -> beau | joli |  jeune
+A2-Pl-F -> belle | jolie |  jeune
+A2-Pl-M -> beaux | jolis |  jeunes
+A2-Pl-F -> belles | jolies |  jeunes
+A3-Sg-M -> grand | dernier | ancien
+A3-Sg-F -> grande | derniere | ancienne
+A3-Pl-M -> grands | derniers | anciens
+A3-Pl-F -> grandes | dernieres | anciennes
